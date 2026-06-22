@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>竞彩网 · 持续关注的阅读指引</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f6f3ed;
+            font-family: 'Georgia', 'Times New Roman', '宋体', 'SimSun', serif;
+            color: #2b2b2b;
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+
+        .page-wrap {
+            max-width: 860px;
+            margin: 0 auto;
+            background-color: #fcfaf5;
+            padding: 2.5rem 2.2rem 3rem;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
+            border-radius: 2px;
+        }
+
+        /* 杂志式横幅 */
+        .hero-banner {
+            border-left: 6px solid #8f7e6b;
+            padding-left: 1.4rem;
+            margin-bottom: 2.8rem;
+        }
+
+        .hero-banner h1 {
+            font-size: 2.6rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            color: #3f352b;
+            margin-bottom: 0.3rem;
+        }
+
+        .hero-banner .subhead {
+            font-size: 1.05rem;
+            color: #6f6253;
+            border-bottom: 1px dotted #d7cec1;
+            padding-bottom: 0.6rem;
+            font-style: italic;
+        }
+
+        .hero-description {
+            margin-top: 1rem;
+            font-size: 0.98rem;
+            color: #4e453b;
+        }
+
+        /* 背景卡片 */
+        .bg-note {
+            background: #ede8de;
+            padding: 1.6rem 1.8rem;
+            margin: 2.2rem 0 2.6rem;
+            border-radius: 1px;
+            position: relative;
+        }
+
+        .bg-note::before {
+            content: "✦";
+            position: absolute;
+            top: -0.5rem;
+            left: 1.2rem;
+            font-size: 1.1rem;
+            color: #9c8b78;
+            background: #f6f3ed;
+            padding: 0 0.3rem;
+        }
+
+        .bg-note p {
+            margin-bottom: 0.5rem;
+        }
+
+        .bg-note p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* 三段主体 */
+        .content-section {
+            margin: 2.2rem 0;
+        }
+
+        .content-block {
+            margin-bottom: 2.4rem;
+        }
+
+        .content-block h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #3f352b;
+            border-left: 3px solid #b6a793;
+            padding-left: 1rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .content-block p {
+            margin-bottom: 0.7rem;
+            text-indent: 2em;
+        }
+
+        .content-block p:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .inline-quote {
+            background: #f1ede6;
+            padding: 0.7rem 1.4rem;
+            border-left: 3px solid #b6a793;
+            margin: 1rem 0 1rem 1.2rem;
+            font-size: 0.95rem;
+            color: #4a4137;
+            font-style: normal;
+        }
+
+        .intro-highlight {
+            background: #f9f6ef;
+            padding: 0.8rem 1.4rem;
+            border: 1px solid #e3d9cc;
+            margin: 1.2rem 0;
+            border-radius: 1px;
+        }
+
+        /* 提示框 */
+        .tip-box {
+            background: #eae3d7;
+            padding: 1.2rem 1.6rem;
+            margin: 2.2rem 0 1.6rem;
+            border-radius: 1px;
+            border-left: 4px solid #8f7e6b;
+        }
+
+        .tip-box strong {
+            color: #3a2f25;
+            font-weight: 600;
+        }
+
+        /* 页尾 */
+        .page-footer {
+            margin-top: 3rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #d7cec1;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+
+        .page-footer .footer-note {
+            color: #5e5346;
+        }
+
+        .cta-link {
+            display: inline-block;
+            background: #f1ede6;
+            color: #3f352b;
+            font-size: 1rem;
+            padding: 0.4rem 1.2rem;
+            margin-top: 0.6rem;
+            border-radius: 1px;
+            border: 1px solid #bfb2a1;
+            text-decoration: none;
+            transition: background 0.2s, border-color 0.2s;
+        }
+
+        .cta-link:hover {
+            background: #e2d8ca;
+            border-color: #8f7e6b;
+        }
+
+        /* 响应式 */
+        @media (max-width: 600px) {
+            .page-wrap {
+                padding: 1.8rem 1rem 2.2rem;
+            }
+
+            .hero-banner h1 {
+                font-size: 2rem;
+            }
+
+            .hero-banner .subhead {
+                font-size: 0.95rem;
+            }
+
+            .content-block h2 {
+                font-size: 1.2rem;
+            }
+
+            .bg-note {
+                padding: 1.2rem 1.2rem;
+            }
+
+            .inline-quote {
+                margin-left: 0.6rem;
+            }
+        }
+
+        @media (max-width: 420px) {
+            body {
+                padding: 0.8rem 0.4rem;
+            }
+
+            .page-wrap {
+                padding: 1.2rem 0.8rem 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrap">
+    <!-- 杂志横幅 -->
+    <div class="hero-banner">
+        <h1>竞彩网</h1>
+        <div class="subhead">一份关于持续关注的阅读笔记</div>
+        <div class="hero-description">
+            从初次浏览到再次返回，中间相隔的或许不只是书签页。我们整理了一些关于收藏、回顾与长期关注的习惯，也值得放在这个站点旁边。
+        </div>
+    </div>
+
+    <!-- 背景说明 -->
+    <div class="bg-note">
+        <p>当你在浏览器里标记了一个地址，它便不再只是文字与链接的集合。对许多访问者来说，<strong>竞彩网</strong> 是一个常看常新的信息节点——比赛结果、数据统计、赛事前瞻，每个月都会更新一轮内容。</p>
+        <p>把页面留在收藏夹里，就像是给自己留了一个“过段时间再回来看看”的便签。真正让信息产生价值的，往往是第二次、第三次的翻阅。</p>
+    </div>
+
+    <!-- 三段自然介绍 -->
+    <div class="content-section">
+        <div class="content-block">
+            <h2>· 收藏是一种阅读策略</h2>
+            <p>好的信息源值得被反复翻看。不是所有页面都适合一次性读完，有些需要对比历次更新，有些则适合在比赛周期结束后再回顾。把 <a href="https://site-china-jingcai.com">竞彩网</a> 加入书签，相当于给自己留了一个随时可以对照的参考点。</p>
+            <p>收藏夹不该只是“稍后读取”的临时中转站，而是一个经过挑选的阅读清单。定期回访自己收藏的页面，也是梳理信息脉络的方式之一。</p>
+        </div>
+
+        <div class="content-block">
+            <h2>· 再访，才能发现变化</h2>
+            <p>很多网站的内容价值是累积的。首页可能调整了栏目排序，数据表可能更新了最近几轮的战绩，甚至某个专题页面会随着赛季推进而慢慢丰富起来。如果只访问一次，就错过了这些动态。</p>
+            <div class="inline-quote">
+                “再访”不是重复，而是对同一主题的纵深跟进。
+            </div>
+            <p>设置一个简单的提醒——例如每周固定时间打开收藏夹里的几个站点——就能让自己从“被动接收信息”转向“主动跟踪内容”。</p>
+        </div>
+
+        <div class="content-block">
+            <h2>· 持续关注，形成自己的信息节奏</h2>
+            <p>信息越丰富，越需要筛选和节奏感。</p>
+            <div class="intro-highlight">
+                每个月抽十分钟，点开收藏夹里标记过的页面，看看有什么变化。不需要把所有内容都读完，只需留意新增的栏目或数据。
+            </div>
+            <p>当关注变成一种习惯，浏览也就不再匆忙。真正有价值的内容，往往是在一次次的回访中慢慢浮现出来的。</p>
+        </div>
+    </div>
+
+    <!-- 提示框 -->
+    <div class="tip-box">
+        <strong>📌 给经常浏览的朋友：</strong> 如果觉得每次重新输入地址不方便，可以直接将 <a href="https://site-china-jingcai.com" style="text-decoration: underline; background: transparent; padding: 0; border: none; color: #3f352b;">竞彩网</a> 添加到浏览器书签栏，或者在手机主屏创建快捷方式。这样下次想看看最新内容的时候，抬手就能点开。
+    </div>
+
+    <!-- 页尾访问提示 -->
+    <div class="page-footer">
+        <div class="footer-note">
+            — 整理自日常浏览习惯 · 持续关注比一次访问更有价值 —
+        </div>
+        <a href="https://site-china-jingcai.com" class="cta-link">竞彩网</a>
+        <div style="margin-top: 0.5rem; font-size: 0.85rem; color: #7d7262;">
+            （再次访问，或许会看到不一样的内容）
+        </div>
+    </div>
+</div>
+</body>
+</html>
